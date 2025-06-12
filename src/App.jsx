@@ -9,7 +9,7 @@ import DataCleaning from './pages/DataCleaning.jsx';
 import BusinessAnalysis from './pages/BusinessAnalysis.jsx';
 import Results from './pages/Results.jsx';
 import Splash from './pages/Splash.jsx';
-import './styles/App.css';
+//port './styles/App.css';
 
 const App = () => (
   <Router>
@@ -17,7 +17,7 @@ const App = () => (
       <Navbar />
       <div className="main-content">
         <Routes>
-          <Route path="/" element={<Splash />} /> {/* ✅ Default page on load */}
+          <Route path="/" element={<Splash />} />
           <Route path="/home" element={<Home />} />
           <Route path="/data" element={<DataCollection />} />
           <Route path="/cleaning" element={<DataCleaning />} />
