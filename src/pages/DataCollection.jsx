@@ -127,7 +127,7 @@ const DataCollection = () => {
                     </p>
 
                     <h2>Data Collection Mapping (To be inserted)</h2>
-                    <img src="/mnt/data/4b8883f8-0b00-4724-bb26-547efcec8817.png" alt="Mapping Diagram" className="diagram" />
+                    <img src="dc.jpg" alt="Mapping Diagram" className="diagram" />
 
                     <h2>Entity Relationship Diagram</h2>
                     <img src="/ER diag1.jpg" alt="ER Diagram" className="diagram" />
